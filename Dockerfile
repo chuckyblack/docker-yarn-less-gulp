@@ -1,4 +1,4 @@
-FROM node:10.9-alpine
+FROM node:10.22-alpine
 
 RUN apk add --no-cache git docker yarn && \
     npm install -g gulp-cli less && \
