@@ -1,0 +1,5 @@
+version: '3'
+services:
+    build:
+        build: .
+        image: jaromirpufler/docker-yarn-less-gulp:latest
